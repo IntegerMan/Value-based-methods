@@ -9,6 +9,23 @@
 
 This repository contains material related to Udacity's Value-based Methods course.
 
+
+## Notes on My Implementation
+
+See `p1_navigation/Navigation.ipynb` for my code. I used the provided `model.py` and `dqn_agent.py` files from earlier exercises and included them with this file.
+
+I ran this application on Windows 64 bit and ran into a number of problems that Udacity hasn't documented in the project. This, honestly, was the hardest part of this overall project and I shouldn't have needed to deal with it for a paid course.
+
+Code was written in PyTorch and Python 3.6 as prescribed by the documentation. I also needed to manually install some `whl` file to patch PyTorch for Windows and work around an issue with Unity ML and casting.
+
+Saved model weights are available in the `p1_navigation/Model.pth` file.
+
+Additional readme is available in `p1_navigation/README.md` with standard instructions, details, and getting started guide.
+
+The notebook's output is available at `p1_navigation/Navigation.html`.
+
+My analysis report is available at `Report.md`.
+
 ## Table of Contents
 
 ### Tutorials
