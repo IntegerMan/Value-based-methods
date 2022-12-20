@@ -11,13 +11,13 @@ The underlying model had a neural network with 2 hidden layers plus input and ou
 
 I accepted the following hyper-parameters for my model training process:
 
-- n_episodes (int): maximum number of training episodes
-- max_t (int): maximum number of timesteps per episode
-- eps_start (float): starting value of epsilon, for epsilon-greedy action selection
-- eps_end (float): minimum value of epsilon
-- eps_decay (float): multiplicative factor (per episode) for decreasing epsilon
-- window_size (int): the number of most recent scores to use when averaging performance
-- threshold (float): when the algorithm should early exit the training process once a minimum window score is reached
+- n_episodes (1000): maximum number of training episodes
+- max_t (1000): maximum number of timesteps per episode
+- eps_start (1.0): starting value of epsilon, for epsilon-greedy action selection
+- eps_end (0.1): minimum value of epsilon
+- eps_decay (0.99): multiplicative factor (per episode) for decreasing epsilon
+- window_size (100): the number of most recent scores to use when averaging performance
+- threshold (13.0): when the algorithm should early exit the training process once a minimum window score is reached
 
 ## Performance
 
